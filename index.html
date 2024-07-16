@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./sub.css">
+    <link href="https://cdn.jsdelivr.net/gh/sunn-us/SUITE/fonts/variable/woff2/SUITE-Variable.css" rel="stylesheet">
+
+    <title> 한국장기조직기증원 </title>
+
+</head>
+
+<body>
+    <div id="AllWrap">
+        <!-- header영역 -->
+        <header>
+            <h1> <a href="#"> <img src="./img/로고.JPG" alt="logo"> </a> </h1>
+            <!-- util영역 -->
+            <div class="utilWrap">
+                <div class="util">
+                    <p>
+                        <span> 언어 </span>
+                        <select name="language" id="language">
+                            <option value="korean"> 한국어 </option>
+                            <option value="english"> English </option>
+                            <option value="japanese"> 日本語 </option>
+                            <option value="chinese"> 中國語 </option>
+                        </select>
+                    </p>
+                    <div class="text">
+                        <input type="text" placeholder="검색어를 입력하세요">
+                        <button> 검색 </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 메뉴 영역 -->
+            <div class="nav">
+                <ul class="mainmenu">
+                    <li> <a href="#"> 장기·조직 기증 </a>
+                        <ul class="submenu">
+                            <li> <a href="#"> 장기·조직 기증 </a> </li>
+                            <li> <a href="#"> 뇌사 추정자 통보 센터 </a> </li>
+                            <li> <a href="#"> 기증자 예우 </a> </li>
+                            <li> <a href="#"> 협약기관 </a> </li>
+                            <li> <a href="#"> 검사실(KODA LAB) </a> </li>
+                        </ul>
+                    </li>
+                    <li> <a href="#"> 기증희망등록 </a> </li>
+                    <li> <a href="#space"> 추모공간 </a>
+                        <ul class="submenu">
+                            <li> <a href="#"> 기증자 추모관 </a> </li>
+                            <li> <a href="#"> 하늘나라 편지 </a> </li>
+                            <li> <a href="#"> 수혜자 편지 </a> </li>
+                            <li> <a href="#"> 기증 後 스토리 </a> </li>
+                            <li> <a href="#"> 생명나눔 스토리 </a> </li>
+                        </ul>
+                    </li>
+                    <li> <a href="#"> 기관소식 </a>
+                        <ul class="submenu">
+                            <li> <a href="#"> 기관 일정 </a> </li>
+                            <li> <a href="#"> 기관 행사 </a> </li>
+                            <li> <a href="#"> 홍보 </a> </li>
+                            <li> <a href="#"> 보도자료 </a> </li>
+                            <li> <a href="#"> 소통게시판 (민원신청) </a> </li>
+                        </ul>
+                    </li>
+                    <li> <a href="#"> 기관소개 </a>
+                        <ul class="submenu">
+                            <li> <a href="#"> 기관 소개 </a> </li>
+                            <li> <a href="#"> 인권·윤리 경영 </a> </li>
+                            <li> <a href="#"> 인사말 </a> </li>
+                            <li> <a href="#"> 조직 안내 </a> </li>
+                            <li> <a href="#"> 위치 안내 </a> </li>
+                            <li> <a href="#"> 인재 채용 </a> </li>
+                        </ul>
+                    </li>
+                    <li> <a href="#"> 자료실 </a>
+                        <ul class="submenu">
+                            <li> <a href="#"> 기증 통계 </a> </li>
+                            <li> <a href="#"> 정보 공개 </a> </li>
+                            <li> <a href="#"> 저작권 정책 </a> </li>
+                            <li> <a href="#"> 자료실 </a> </li>
+                            <li> <a href="#"> 공지사항 </a> </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <!-- 사이드메뉴 -->
+            <input type="checkbox" id="toggle">
+            <div class="subnav">
+                <label for="toggle"></label>
+                <ul class="sidemenu">
+                    <li> <a href="#"> 장기·조직 기증 </a> _ <a href="#"> 장기·조직 기증 </a> | <a href="#"> 뇌사 추정자 통보 센터 </a> | <a
+                            href="#">기증자 예우 </a> | <a href="#">협약기관 </a> | <a href="#">검사실(KODA LAB) </a> </li>
+                    <li> <a href="#"> 기증 희망등록</a></li>
+                    <li> <a href="#"> 추모공간 </a> _ <a href="#"> 기증자 추모관 </a> | <a href="#"> 하늘나라 편지 </a> | <a href="#">
+                            수혜자 편지 </a> | <a href="#"> 기증 後 스토리 </a> | <a href="#"> 생명나눔 스토리 </a></li>
+                    <li> <a href="#"> 기관 소식 </a> _ <a href="#"> 기관 일정 </a> | <a href="#"> 기관 행사 </a> | <a href="#"> 홍보
+                        </a> | <a href="#"> 보도자료 </a> | <a href="#"> 소통게시판 (민원신청) </a> </a></li>
+                    <li> <a href="#"> 기관 소개 </a> _ <a href="#"> 기관 소개</a>| <a href="#"> 인권·윤리 경영 </a> | <a href="#"> 인사말
+                        </a> | <a href="#"> 조직 안내 </a> | <a href="#"> 위치 안내 </a> | <a href="#"> 인재 채용 </a></li>
+                    <li> <a href="#"> 자료실 </a> _ <a href="#"> 기증 통계 </a> | <a href="#"> 정보 공개 </a> | <a href="#"> 저작권 정책
+                        </a> | <a href="#"> 자료실 </a> | <a href="#"> 공지사항 </a></li>
+                </ul>
+            </div>
+        </header>
+
+        <!-- main영역 -->
+        <main>
+            <div>
+                <input type="radio" name="mainBtn" id="mainBtn01" checked>
+                <input type="radio" name="mainBtn" id="mainBtn02">
+                <input type="radio" name="mainBtn" id="mainBtn03">
+                <div class="mainWrap">
+                    <div class="labelWrap">
+                        <label for="mainBtn01"></label>
+                        <label for="mainBtn02"></label>
+                        <label for="mainBtn03"></label>
+                    </div>
+                    <ul>
+                        <li> <a href="#"> </a> </li>
+                        <li> <a href="#"> </a> </li>
+                        <li> <a href="#"> </a> </li>
+                    </ul>
+                </div>
+            </div>
+
+            <section class="callWrap">
+                <input type="checkbox" name="callBtn" id="callBtn01">
+                <input type="checkbox" name="callBtn" id="callBtn02">
+                <div class="callWrapall">
+                    <div class="calllabelWrap">
+                        <label for="callBtn01">
+                            <p> 의료진 전용 </p>
+                        </label>
+                        <label for="callBtn02">
+                            <p> 일반인 전용</p>
+                        </label>
+                    </div>
+                    <div class="callWrap01">
+                        <p> 뇌사 시 통보 </p>
+                        <p> 1577-1458 </p>
+                    </div>
+                    <div class="callWrap02">
+                        <p> 기증희망등록 </p>
+                        <p> 1544-0606 </p>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+        <!-- 주요서비스 영역  -->
+        <div class="service">
+            <h2> 주요 서비스 </h2>
+            <section>
+                <div class="iconWrap">
+                    <a href="#">
+                        <div class="icon">
+                            <img src="./img/icon_mainlist0104.png" alt="icon01">
+                        </div>
+                        <p>
+                            장기·조직 기증
+                        </p>
+                    </a>
+                </div>
+
+                <div class="iconWrap">
+                    <a href="#">
+                        <div class="icon">
+                            <img src="./img/icon_mainlist0103.png" alt="icon02">
+                        </div>
+                        <p>
+                            KODA LAB
+                        </p>
+                    </a>
+                </div>
+
+                <div class="iconWrap">
+                    <a href="#">
+                        <div class="icon">
+                            <img src="./img/icon_mainlist0102.png" alt="icon03">
+                        </div>
+                        <p>
+                            기증희망 등록
+                        </p>
+                    </a>
+                </div>
+
+                <div class="iconWrap">
+                    <a href="#">
+                        <div class="icon">
+                            <img src="./img/icon_mainlist0101.png" alt="icon04">
+                        </div>
+                        <p>
+                            기증자 예우
+                        </p>
+                    </a>
+                </div>
+
+                <div class="iconWrap">
+                    <a href="#">
+                        <div class="icon">
+                            <img src="./img/icon_mainlist0107.png" alt="icon05">
+                        </div>
+                        <p>
+                            생명나눔 희망우체통
+                        </p>
+                    </a>
+                </div>
+
+                <div class="iconWrap">
+                    <a href="#">
+                        <div class="icon">
+                            <img src="./img/icon_mainlist0106.png" alt="icon06">
+                        </div>
+                        <p>
+                            기관 안내
+                        </p>
+                    </a>
+                </div>
+            </section>
+        </div>
+
+        <!-- article영역 -->
+        <div class="articleWrap">
+
+            <!-- article01영역 -->
+            <article class=“article01”>
+                <h2 id="space"> 추모공간 </h2>
+                <div class="article01Wrap">
+                    <input type="radio" name="tab" id="tab01" checked>
+                    <input type="radio" name="tab" id="tab02">
+                    <input type="radio" name="tab" id="tab03">
+
+                    <div class="arlabelWrap">
+                        <label for="tab01"> 기증자 추모관 </label>
+                        <label for="tab02"> 하늘나라 편지 </label>
+                        <label for="tab03"> 수혜자 편지 </label>
+                    </div>
+                    <div class="tabWrap">
+                        <div class="box box01">
+                            <h3><a href="#"> 기증자 추모하기 ▶ </a></h3>
+                            <div> <a href="#">
+                                    <p> 오*</p>
+                                    <p> M, 18 </p>
+                                    <p> 기증일: 2023-06-08 </p>
+                                    <p> <br> 기증자 오*(남, 18)님은 2023년 6월 8일 환자들에게 <br>귀중한 장기를 선물해주셨습니다. <br>
+                                        한국장기조직기증원은 귀한 생명을 나눠주신 기증자와 유가족께 깊이 감사드리며, <br>
+                                        앞으로도 기증자 유가족들이 건강한 삶을 유지할 수 있도록 최선을 다해 지원할 것입니다. <br><br></p>
+                                    <p>고인의 명복을 빕니다. </p>
+                                </a> </div>
+                            <div> <a href="#">
+                                    <p> 정**</p>
+                                    <p> F, 63 </p>
+                                    <p> 기증일: 2023-06-08 </p>
+                                    <p> <br> 기증자 정**(여, 63)님은 2023년 6월 8일 환자들에게 <br>귀중한 장기와 조직을 선물해주셨습니다. <br>
+                                        한국장기조직기증원은 귀한 생명을 나눠주신 기증자와 유가족께 깊이 감사드리며, <br>
+                                        앞으로도 기증자 유가족들이 건강한 삶을 유지할 수 있도록 최선을 다해 지원할 것입니다. <br><br></p>
+                                    <p>고인의 명복을 빕니다. </p>
+                                </a> </div>
+                        </div>
+
+                        <div class="box box02">
+                            <h3> <a href="#"> 하늘나라 편지 작성하기 ▶ </a> </h3>
+                            <h4> 기증자에 대한 그리움과 사랑을 담은 '하늘나라 편지' </h4>
+                            <div> <a href="#">
+                                    <p> 7954번째 편지 </p>
+                                    <p> 일기 </p>
+                                    <p> 기증자 | *** </p>
+                                    <p> 추모자 | *** </p>
+                                </a>
+                            </div>
+                            <div>
+                                <a href="#">
+                                    <p> 7955번째 편지 </p>
+                                    <p> 그곳은 아프지 않고 따뜻할거야. </p>
+                                    <p> 기증자 | *** </p>
+                                    <p> 추모자 | *** </p>
+                                </a>
+                            </div>
+                            <div> <a href="#">
+                                    <p> 7956번째 편지 </p>
+                                    <p> 보고싶어요 </p>
+                                    <p> 기증자 | *** </p>
+                                    <p> 추모자 | *** </p>
+                                </a>
+                            </div>
+                            <div> <a href="#">
+                                    <p> 7957번째 편지 </p>
+                                    <p> 2주기 </p>
+                                    <p> 기증자 | *** </p>
+                                    <p> 추모자 | *** </p>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="box box03">
+                            <h3> <a href="#"> 수혜자 편지 작성하기 ▶ </a> </h3>
+                            <h4> 이식으로 새 생명을 살고 있는 분들의 이야기 </h4>
+                            <div> <a href="#">
+                                    <p> 70번째 편지 </p>
+                                    <p> 저는 8년 동안 투석을 받던 환자였습니다. </p>
+                                    <p> 수혜자 | *** </p>
+                                    <p> 2023-04-04 </p>
+                                </a>
+                            </div>
+                            <div> <a href="#">
+                                    <p> 71번째 편지 </p>
+                                    <p> 기증자님 감사합니다. </p>
+                                    <p> 수혜자 | *** </p>
+                                    <p> 2023-04-14 </p>
+                                </a>
+                            </div>
+                            <div> <a href="#">
+                                    <p> 72번째 편지 </p>
+                                    <p> 감사합니다. </p>
+                                    <p> 수혜자 | *** </p>
+                                    <p> 2023-04-16 </p>
+                                </a>
+                            </div>
+                            <div> <a href="#">
+                                    <p> 73번째 편지 </p>
+                                    <p> 제2의 인생 </p>
+                                    <p> 수혜자 | *** </p>
+                                    <p> 2023-04-24 </p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <!-- article02영역 -->
+            <article class="article02">
+                <section>
+                    <h2> <a href="#"> 생명나눔 스토리 </a></h2> 
+                    <input type="radio" name="slide02" id="pos1" checked>
+                    <input type="radio" name="slide02" id="pos2">
+                    <div class="slideWrap">
+                        <ul>
+                            <li> </li>
+                            <li> </li>
+                            <li> </li>
+                            <li> </li>
+                            <li> </li>
+                            <li> </li>
+                            <li> </li>
+                            <li> </li>
+                        </ul>
+                    </div>
+                    <div class="control control01">
+                        <label for="pos2" class="leftBtn"> &lt; </label>
+                        <label for="pos2" class="rightBtn"> &gt; </label>
+                    </div>
+                    <div class="control control02">
+                        <label for="pos1" class="leftBtn"> &lt; </label>
+                        <label for="pos1" class="rightBtn"> &gt; </label>
+                    </div>
+                </section>
+            </article>
+
+            <!-- article03영역 -->
+            <h2 class="article03h2"> 기증 현황 및 협약기관 </h2>
+            <article class="article03">
+
+                <div class="dataWrap">
+                    <h2 class="ar03title"> 2023 누적 장기·조직 기증자 </h2>
+                    <div class="data">
+                            <h2> 2023년 누적 장기기증자 </h2>
+                        <div class="datadata">
+                            <p> 245 </p>
+                            <p> 2023-06-21 현재 </p>
+                        </div>
+                    </div>
+                    <div class="data">
+                            <h2> 2023년 누적 조직기증자 </h2>
+                        <div class="datadata">
+                            <p> 86 </p>
+                            <p> 2023-06-21 현재 </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="agWrapWrap">
+                    <h2> 협약기관 </h2>
+                    <div class="agWrap">
+                        <div class="agtab">
+                            <input type="radio" name="agtab" id="agtab01" checked>
+                            <input type="radio" name="agtab" id="agtab02">
+                            <input type="radio" name="agtab" id="agtab03">
+
+                            <div class="aglabel">
+                                <label for="agtab01"> 뇌사자 관리업무 협약기관 </label>
+                                <label for="agtab02"> DIP 협약기관 </label>
+                                <label for="agtab03"> 기타 협약기관 </label>
+                            </div>
+
+                            <div class="agbox agbox01">
+                                <img src="./img/ag01.jpg" alt="ag01">
+                                <img src="./img/ag02.jpg" alt="ag02">
+                                <img src="./img/ag03.jpg" alt="ag03">
+                                <img src="./img/ag04.jpg" alt="ag04">
+                            </div>
+
+                            <div class="agbox agbox02">
+                                <img src="./img/ag05.jpg" alt="ag05">
+                                <img src="./img/ag06.jpg" alt="ag06">
+                                <img src="./img/ag07.jpg" alt="ag07">
+                                <img src="./img/ag08.jpg" alt="ag08">
+                            </div>
+
+                            <div class="agbox agbox03">
+                                <img src="./img/ag09.jpg" alt="ag09">
+                                <img src="./img/ag10.jpg" alt="ag10">
+                                <img src="./img/ag11.jpg" alt="ag11">
+                                <img src="./img/ag12.jpg" alt="ag12">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <!-- article04영역 -->
+            <h2 class="article04h2"> 기관 소식 </h2>
+            <article class="article04">
+
+                <div class="arboxWrap">
+                    <div class="arbox01">
+                        <h3> 기관 일정 </h3>
+                        <p class="arbox01p"> <a href="#"> 더보기 ▶ </a> </p>
+                        <div>
+                            <p> 등록된 일정이 없습니다.</p>
+                        </div>
+                    </div>
+                    <div class="arbox02">
+                        <h3> 공지사항 </h3>
+                        <p> <a href="#">더보기 ▶ </a> </p>
+                        <div>
+                            <p> <a href="#">[이벤트 당첨자] 생명나눔 60초 스... </a></p>
+                            <p> <a href="#"> 2023년 제2차 채용 최종합격자 및... </a></p>
+                            <p> <a href="#"> 2023년 제2차 채용 서류전형 합격... </a></p>
+                        </div>
+                    </div>
+                    <div class="arbox03">
+                        <h3> 보도자료 </h3>
+                        <p> <a href="#"> 더보기 ▶ </a> </p>
+                        <div>
+                            <p> <a href="#"> 80세 박수남 씨, 인체조직기증으로... </a></p>
+                            <p> <a href="#"> 생명을 살리는 따뜻한 나눔의 목소리... </a></p>
+                            <p> <a href="#"> 한국장기조직기증원, 부산시, 장기... </a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="arbox04">
+                    <h3> 홍보영상 </h3>
+                    <p> 더보기 ▶ </p>
+                    <div>
+                        <iframe width="100%" height="430" src="https://www.youtube.com/embed/Lq6E_J41oK0"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                </div>
+            </article>
+        </div>
+
+        <!-- footer영역 -->
+        <footer>
+            <div>
+                <div>
+                    <a href="#"> <img src="./img/보건복지부.png" alt="01"> </a>
+                    <a href="#"> <img src="./img/보건복지상담센터.png" alt="02"> </a>
+                    <a href="#"> <img src="./img/대한이식학회.png" alt="03"> </a>
+                    <a href="#"> <img src="./img/혈액관리원.jpg" alt="04"> </a>
+                </div>
+            </div>
+            <p>
+                서울시 서대문구 충정로 36 국민연금공단 충정로 사옥 5층 한국장기조직기증원 <br>
+                (우) 03741
+                <br>Tel : 02-3447-5632 / Fax : 02-3447-5631 <br>
+                E-Mail : koda@koda1458.kr <br>
+                Copyright (c) 2015 All Rights Reserved.
+            </p>
+            <span> <a href="#"> 개인정보 처리방침</a> | <a href="#"> 위치안내</a> | <a href="#"> 연락체계</a> | <a href="#"> 경영공시</a> |
+                <a href="#"> 유관기관</a> | <a href="#"> 소식지 신청</a> | <a href="#"> 저작권 정책 </a> </span>
+        </footer>
+    </div>
+
+    <!-- 퀵메뉴 영역 -->
+    <aside class="quick01"> </aside>
+    <aside class="quick02"> </aside>
+</body>
+
+</html>

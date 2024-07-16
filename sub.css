@@ -1,0 +1,558 @@
+@media screen and (max-width: 1024px) {
+    /* header영역 */
+    h1 {
+        width: 150px;
+        margin-left: 10px;
+    }
+
+    .util> p {
+        display: none;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .subnav> label {
+        right: 30px;
+    }
+
+    .sidemenu {
+        width: 90%;
+        height: 350px;
+    }
+
+    .sidemenu> li {
+        font-size: 14px;
+    }
+
+    .sidemenu> li> a:first-of-type {
+        font-size: 16px;
+    }
+
+    main {
+        height: 300px;
+    }
+    .mainWrap>ul>li {
+        height: 350px;
+    }
+
+    .labelWrap {
+        width: 80px;
+        height: 10px;
+        bottom: 45px;
+    }
+
+    .labelWrap> label {
+        width: 10px;
+        height: 10px;
+    }
+
+    .callWrap {
+        display: none;
+    }
+
+    .service {
+        width: 80%;
+        height: 550px;
+        margin: 0 auto;
+    }
+
+    .service>h2 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .iconWrap {
+        width: 24%;
+        margin-top: 30px;
+        margin-left: 40px;
+    }
+
+    .iconWrap p {
+        font-size: 13px;
+    }
+
+    .articleWrap {
+        width: 100%;
+    }
+
+    .article01Wrap {
+        width: 100%;
+        height:400px;
+        margin: 30px auto;
+        background-color: rgb(245, 245, 245);
+    }
+
+    .box>h3 {
+        float: right;
+        margin: 10px;
+        font-size: 18px;
+        width: 100%;
+        height: 30px;
+        text-align: right;
+    }
+
+    .box01>div {
+        float: left;
+        width: 40%;
+        height: 40%;
+        border: 1px solid rgb(204, 204, 204);
+        background-color: #fff;
+        border-radius: 20px;
+        margin: 50px 30px 0 30px;
+        line-height: 1.8;
+        padding: 20px 30px;
+        box-sizing: border-box;
+    }
+
+    .box01>div p:nth-of-type(4) {
+        display: none;
+    }
+
+    .box02 h4 {
+        display: none;
+    }
+
+    .box02>div {
+        width: 35%;
+        height: 40%;
+        border: 1px solid rgb(204, 204, 204);
+        background-color: #fff;
+        border-radius: 20px;
+        margin: 5px;
+        padding: 25px;
+        box-sizing: border-box;
+        line-height: 1.8;
+        float: left;
+    }
+
+    .box02>div p:nth-of-type(1) {
+        font-weight: 600;
+        font-size: 16px;
+    }
+
+    .box02>div p:nth-of-type(2) {
+        font-size: 13px;
+    }
+
+    .box02>div p:nth-of-type(3),p:nth-of-type(4)  {
+        display: none;
+    }
+    
+
+    #space {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .box03 h4 {
+        display: none;
+    }
+
+    .box03>div {
+        width: 20%;
+        height: 35%;
+        border: 1px solid rgb(204, 204, 204);
+        background-color: #fff;
+        border-radius: 20px;
+        margin: 50px 30px 0 0;
+        padding: 30px;
+        box-sizing: border-box;
+        line-height: 1.8;
+        float: left;
+    }
+
+    .box03>div p:nth-of-type(1){
+        font-size: 16px;
+    }
+
+    .box03>div p:nth-of-type(3) {
+        font-size: 13px;
+    }
+
+    .box03>div p:nth-of-type(2)  {
+        display: none;
+    }
+
+    .article02 h2 {
+        font-size: 20px;
+    }
+
+    .article03h2 {
+        font-size: 20px;
+    }
+
+    .ar03title {
+        font-size: 16px;
+    }
+
+    .data h2 {
+        font-size: 14px;
+    }
+
+    .agWrapWrap> h2 {
+        font-size: 20px;
+    }
+    
+    .aglabel>label {
+        font-size: 14px;
+    }
+
+    .agbox img {
+        float: left;
+        width: 30%;
+        margin: 20px 50px;
+    }
+
+    .article04h2 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:768px) {
+
+    /* header영역 */
+    h1 {
+        width: 100px;
+        margin-left: 10px;
+    }
+
+    .util {
+        display: none;
+    }
+
+    /* 메뉴 영역 */
+    .nav {
+        display: none;
+    }
+
+    .subnav>label {
+        width: 40px;
+        height: 40px;
+        top: 50px;
+        right: 10px;
+    }
+
+    .sidemenu {
+        width: 100%;
+        height: 80vh;
+        top: 100px;
+        right: 0;
+    }
+
+    .sidemenu>li>a:first-of-type {
+        font-weight: 600;
+        font-size: 14px;
+    }
+
+    .sidemenu>li {
+        font-size: 10px;
+    }
+
+    /* 메인영역 */
+    main {
+        height: 200px;
+        top: -100px;
+    }
+
+    .mainWrap>ul>li {
+        height: 200px;
+    }
+
+    .labelWrap {
+        width: 40px;
+        left: 10px;
+        bottom: 5px;
+    }
+
+    .labelWrap>label {
+        width: 5px;
+        height: 5px;
+        margin-right: 3px;
+    }
+
+    .callWrap {
+        display: none;
+    }
+
+    /* 주요 서비스 영역 */
+    .service {
+        height: 200px;
+        margin-top: -130px;
+        padding: 0;
+    }
+
+    .service>section {
+        width: 100%;
+        height: 95%;
+    }
+
+    .service>h2 {
+        font-size: 16px;
+        margin-bottom: 0;
+    }
+
+    .iconWrap {
+        width: 40%;
+        height: 20%;
+        margin: 10px 10px 10px 20px;
+    }
+
+    .iconWrap p {
+        font-size: 12px;
+        height: 40px;
+        line-height: 40px;
+    }
+
+    .icon {
+        display: none;
+    }
+
+    /* 추모공간 */
+    #space {
+        font-size: 16px;
+        padding: 15px 0;
+    }
+
+    .article01Wrap {
+        margin-top: -170px;
+        height: 300px;
+    }
+
+    .arlabelWrap {
+        width: 100%;
+        margin-top: 120px;
+        border-bottom: none;
+        background-color: none;
+    }
+
+    .arlabelWrap>label {
+        width: 45%;
+        font-size: 12px;
+        float: left;
+    }
+
+    .arlabelWrap>label:first-of-type {
+        margin-top: 100px;
+    }
+
+    .arlabelWrap>label:hover {
+        background-color: rgba(163, 108, 173, 0.746);
+        font-size: 15px;
+    }
+
+    .box>h3 {
+        width: 60%;
+        font-size: 14px;
+        text-align: center;
+        float: none;
+        margin-top: 85px;
+        margin-left: 150px;
+    }
+
+    .box>h3:hover {
+        opacity: 0.8;
+    }
+
+    .box>div {
+        display: none;
+    }
+
+    .box>h4 {
+        display: none;
+    }
+
+    /* 생명나눔 스토리 */
+    .article02 {
+        display: none;
+    }
+
+    /* 기증data */
+    .article03h2 {
+        font-size: 16px;
+        margin-bottom: 0;
+    }
+
+    .article03 {
+        height: 350px;
+    }
+
+    .dataWrap {
+        width: 100%;
+        margin: 10px 0 0 0;
+    }
+
+    .ar03title {
+        font-size: 14px;
+        padding: 0;
+    }
+
+    .data {
+        height: 35%;
+    }
+
+    .data h2 {
+        font-size: 13px;
+    }
+
+    .datadata {
+        height: 40%;
+    }
+
+    .datadata>p:first-of-type {
+        font-size: 28px;
+    }
+
+    .datadata>p:last-of-type {
+        margin: 0;
+        font-size: 12px;
+    }
+
+    /* 협약기관 */
+    .agWrapWrap {
+        width: 100%;
+        height: 85%;
+        margin: 0;
+    }
+
+    .agWrapWrap>h2 {
+        font-size: 14px;
+        margin-bottom: 0;
+    }
+
+    .agWrap {
+        border: none;
+    }
+
+    .agbox img {
+        display: none;
+    }
+
+    .aglabel {
+        display: block;
+    }
+
+    .aglabel>label {
+        font-size: 12px;
+        width: 60%;
+        height: 45px;
+        line-height: 45px;
+        margin-bottom: 10px;
+        border: none;
+        background-color: rgb(94, 152, 166);
+        border-radius: 15px;
+        color: #fff;
+    }
+
+    .aglabel>label:hover {
+        border-radius: 15px;
+        color: rgb(94, 152, 166);
+        background-color: #fff;
+        border: 1px solid rgb(94, 152, 166);
+    }
+
+    /* 기관 소식 */
+    .article04 {
+        height: 400px;
+    }
+
+    .article04h2 {
+        font-size: 16px;
+        margin: 30px 0;
+        padding: 0;
+    }
+
+    .arboxWrap {
+        width: 80%;
+        height: 60%;
+        margin: 0 auto;
+        padding: 20px;
+        float: none;
+    }
+
+    .arbox01>h3 {
+        font-size: 14px;
+        padding: 0;
+    }
+
+    .arbox02>h3 {
+        font-size: 14px;
+        padding: 0;
+    }
+
+    .arbox03>h3 {
+        font-size: 14px;
+        padding: 0;
+    }
+
+    .arbox01>p {
+        margin: 15px;
+    }
+
+    .arbox02>p {
+        margin: 15px;
+    }
+
+    .arbox03>p {
+        margin: 15px;
+    }
+
+    .arbox01>div {
+        display: none;
+    }
+
+    .arbox02>div {
+        display: none;
+    }
+
+    .arbox03>div {
+        display: none;
+    }
+
+    .arbox04 {
+        width: 64%;
+        height: 18%;
+        margin: 0 auto;
+        padding: 0;
+        float: none;
+    }
+
+    .arbox04>h3 {
+        font-size: 14px;
+        padding: 0;
+        float: left;
+        margin: 10px;
+    }
+
+    .arbox04>p {
+        margin: 25px;
+    }
+
+    .arbox04>div {
+        display: none;
+    }
+
+    /* footer영역 */
+    footer {
+        width: 100%;
+        padding: 0;
+    }
+
+    footer>div {
+        width: 80%;
+        margin: 10px 0;
+    }
+
+    footer>p {
+        font-size: 12px;
+        margin: 30px;
+        line-height: 1.8;
+    }
+
+    footer>span {
+        margin-top: 20px;
+        font-size: 11px;
+    }
+
+}
